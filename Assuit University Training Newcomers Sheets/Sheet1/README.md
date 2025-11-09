@@ -1,1 +1,15 @@
-A. Say Hello With C++: [View Solution](https://codeforces.com/group/MWSDmqGsZm/contest/219158/submission/304468175)
+A. Say Hello With C++:
+<details>
+<summary>Show Solution</summary>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string x;
+    cin>>x;
+
+    cout << "Hello, " <<x<<endl;
+    return 0;
+}
