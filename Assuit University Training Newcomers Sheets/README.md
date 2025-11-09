@@ -1,3 +1,4 @@
-## 📘 Sheet 1:Data type - Conditions
-
-A. Say Hello With C++: [View Solution](https://codeforces.com/group/MWSDmqGsZm/contest/219158/submission/304468175) 
+## Sheets List
+- [ Sheet 1](./Sheet1/README.md)
+- [ Sheet 2](./Sheet2/README.md)
+- [ Sheet 3](./Sheet3/README.md)
