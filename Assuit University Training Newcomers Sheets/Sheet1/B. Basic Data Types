@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip>  // for setprecision
+using namespace std;
+
+int main() {
+    int a;
+    long long b;
+    char c;
+    float d;
+    double e;
+
+    // Read input
+    cin >> a >> b >> c >> d >> e;
+
+    // Print output
+    cout << a << endl;
+    cout << b << endl;
+    cout << c << endl;
+    cout << fixed << setprecision(2) << d << endl;
+    cout << fixed << setprecision(9) << e << endl;
+
+    return 0;
+}
