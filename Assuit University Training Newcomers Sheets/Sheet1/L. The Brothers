@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  string n1,x1,n2,x2;
+  cin>>n1>>x1>>n2>>x2;
+
+if(x1==x2){
+    cout<<"ARE Brothers";
+}
+else{
+    cout<<"NOT";
+}
+return 0;
+}
