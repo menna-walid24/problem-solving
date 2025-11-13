@@ -1,0 +1,17 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+   int a,b,c,d,ma_x,mi_n;
+   cin>>a>>b>>c>>d;
+   ma_x=max(a,c);
+   mi_n=min(b,d);
+   if(ma_x>mi_n){
+    cout<<"-1";
+   }
+   else {
+    cout<<ma_x<<" "<<mi_n;
+ }  return 0;
+}
