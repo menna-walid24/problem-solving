@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long year,mon,day, n,c;
+
+    cin >>n;
+
+ if(n<360){
+    mon=n/30;
+
+    day=n%30;
+    cout<<"0"<<" years"<<endl;
+    cout<<mon<<" months"<<endl;
+    cout<<day<<" days";
+ }
+ else{
+        year=n/365;
+ cout<<year<<" years"<<endl;
+ c=n-(year*365);
+ mon=c/30;
+ cout<<mon<<" months"<<endl;
+ day=n-((year*365)+(mon*30));
+ cout<<day<<" days";
+
+ }
+    return 0;
+}
