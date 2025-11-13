@@ -1,0 +1,60 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+     double a,b,c,n,r;
+
+    cin>>a;
+char ob,q;
+cin>>ob;
+cin>>b;
+cin>>q;
+cin>>r;
+switch(ob){
+case ('+'):
+    n=a+b;
+   if(n==r){
+    cout<<"Yes";
+   }
+   else {
+    cout<<n;
+   }
+   break;
+
+    case ('*'):
+        n=a*b;
+   if(n==r){
+    cout<<"Yes";
+   }
+
+
+   else {
+    cout<<a*b;
+   }
+
+
+      break;
+
+   case ('-'):
+       n=a-b;
+   if(n==r){
+    cout<<"Yes";
+   }
+
+
+   else {
+    cout<<a-b;
+
+   }
+
+   break;
+}
+
+
+
+
+    return 0;
+}
