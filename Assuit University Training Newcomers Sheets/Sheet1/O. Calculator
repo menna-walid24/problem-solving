@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  long long n,y;
+  cin>>n;
+  char operation;
+  cin>>operation;
+ cin>>y;
+switch(operation){
+
+    case('+'):
+    cout<<n+y;
+    break;
+    case('*'):
+        cout<<n*y;
+        break;
+        case('-'):
+        cout<<n-y;
+        break;
+        case('/'):
+            cout<<n/y;
+            break;
+}
+    return 0;
+}
