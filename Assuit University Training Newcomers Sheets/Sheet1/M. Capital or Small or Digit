@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cctype>
+using namespace std;
+
+int main()
+{
+
+
+char n;
+cin>>n;
+if (isalpha(n)){
+    if(islower(n)){
+        cout<<"ALPHA"<<endl;
+        cout<<"IS SMALL";}
+    else{
+        cout<<"ALPHA"<<endl;
+    cout<<"IS CAPITAL";}
+}
+else if (isdigit(n)){
+    cout<<"IS DIGIT";
+}
+
+ return 0;
+
+}
+ 
