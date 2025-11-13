@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double a,b;
+    cin>>a;
+char ob;
+cin>>ob;
+cin>>b;
+switch(ob){
+case('>'):
+if (a>b){
+    cout<<"Right";
+}
+else{
+    cout<<"Wrong";
+}
+break;
+case('<'):
+    if (a<b){
+        cout<<"Right";
+    }
+    else{
+        cout<<"Wrong";
+    }
+    break;
+
+case('='):
+    if (a==b){
+        cout<<"Right";
+    }
+    else{
+        cout<<"Wrong";
+    }
+    break;
+}
+
+    return 0;
+}
