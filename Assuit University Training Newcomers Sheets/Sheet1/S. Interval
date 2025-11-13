@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+   double a,b,c,d;
+    cin>>a;
+    if(a>=0 && a<=25.00001){
+        cout<<"Interval "<<"[0,25]";
+    }
+
+
+    if (a>25.0001 &a<=50.00000){
+        cout<<"Interval "<<"(25,50]";
+    }
+
+
+
+      if (a>50.00001 &&a<=75.0000000){
+        cout<<"Interval "<<"(50,75]";
+      }
+
+
+     if(a>75.0001 && a<=100.0000){
+        cout<<"Interval "<<"(75,100]";
+     }
+
+
+    if(a<0 || a>100){
+         cout<<"Out of Intervals";
+    }
+
+
+
+
+    return 0;
+}
