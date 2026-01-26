@@ -1,5 +1,5 @@
 ## Sheets List
-- [ Sheet 1(Data type - Conditions)](./Sheet1/README.md)
+- [ Sheet 1(Data type - Conditions)](https://github.com/menna-walid24/problem-solving/tree/main/Assuit%20University%20Training%20Newcomers%20Sheets/Sheet1)
 - [ Sheet 2(Loops)](./Sheet2/README.md)
 - [ Sheet 3(Arrays)](./Sheet3/README.md)
 - [ Sheet 4(Strings)](./Sheet3/README.md)
